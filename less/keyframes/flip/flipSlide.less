@@ -1,0 +1,56 @@
+@-webkit-keyframes flipSlideIn {
+   0% {
+    -webkit-transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    opacity: 0.8;
+  }
+  100%{
+    -webkit-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    transform: perspective(800px) rotateX(0deg)  translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes flipSlideIn {
+  0% {
+    -webkit-transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    -moz-transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    -ms-transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    transform: perspective(800px) rotateX(1080deg) translateY(-100%) scale(0.1);
+    opacity: 0.8;
+  }
+  100%{
+    -webkit-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    -moz-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    -ms-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    transform: perspective(800px) rotateX(0deg)  translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flipSlideOut {
+  100% {
+    -webkit-transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    opacity: 0.8;
+  }
+  0%{
+    -webkit-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    transform: perspective(800px) rotateX(0deg)  translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes flipSlideOut {
+  100% {
+    -webkit-transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    -moz-transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    -ms-transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    transform: perspective(800px) rotateX(1080deg) translateY(100%) scale(0.1);
+    opacity: 0.8;
+  }
+  0%{
+    -webkit-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    -moz-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    -ms-transform: perspective(800px) rotateX(0deg) translateY(0)  scale(1);
+    transform: perspective(800px) rotateX(0deg)  translateY(0) scale(1);
+    opacity: 1;
+  }
+}

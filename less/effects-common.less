@@ -1,0 +1,168 @@
+.ng-animate,
+.rc-animate {
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-transform-style: preserve-3d;
+	 -moz-transform-style: preserve-3d;
+	      transform-style: preserve-3d;
+  -webkit-perspective: 1300px;
+	 -moz-perspective: 1300px;
+	      perspective: 1300px;
+  -webkit-animation-duration: 0s;
+          animation-duration: 0s;
+  -webkit-transition: none;
+          transition: none;
+          animation-delay:0;
+  -webkit-animation-delay:0;
+}
+
+.ng-animate.normal,
+.rc-animate.normal{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.ng-animate.fast,
+.rc-animate.fast{
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+}
+.ng-animate.fastest,
+.rc-animate.fastest {
+  -webkit-animation-duration: 0.35s;
+  animation-duration: 0.35s;
+}
+.ng-animate.slow,
+.rc-animate.slow{
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+}
+.ng-animate.slowest,
+.rc-animate.slowest {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+.ng-animate.ng-hide-add-active,
+.rc-animate[class*="-leave-active"]
+{
+    visibility: visible !important;
+}
+
+.ng-animate.ng-enter,
+.rc-animate[class*="-enter"] {
+  visibility: hidden;
+}
+.ng-animate.ng-enter.ng-enter-active,
+.ng-animate[class*="-remove-active"],
+.rc-animate[class*="-enter-active"],
+.rc-animate[class*="-leave-active"] {
+  visibility: visible !important;
+  display: block !important;
+}
+.ng-animate.ng-enter.ng-enter-active,
+.ng-animate.ng-enter.ng-hide-remove,
+.ng-animate[class*="-active"],
+.ng-animate[class*="-remove-active"] {
+    visibility: visible !important;
+}
+[class*="ng-animate"].ng-hide-add,
+[class*="ng-animate"].ng-hide-add.ng-hide-add-active,
+[class*="ng-animate"][class*="-add-active"],
+[class*="rc-animate"][class*="-active"]{
+    visibility: visible !important;
+    display: block !important;
+}
+[class*="ng-animate"].disable-animation,
+[class*="rc-animate"].disable-animation{
+    -webkit-animation:none !important;
+    animation:none !important;
+    display:none !important;
+    visibility: hidden !important;
+}
+
+/****FOR ONLY ng-ruter and ui-router****/
+
+.ui-view.ng-enter[class*="-active"],
+.ng-view.ng-enter[class*="-active"] {
+   left:0;
+   right:0;
+    
+}
+
+.ui-view.ng-enter,
+.ng-view.ng-enter {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    z-index:1;
+    position:static;
+    /*overflow:hidden;*/
+    /*animation-delay:0.2s;
+    -webkit-animation-delay:0.2s;*/
+}
+.ng-view.ng-leave,
+.ng-view-remove,
+.ng-view.ng-hide,
+.ui-view.ng-leave,
+.ui-view-remove,
+.ui-view.ng-hide {
+  position:absolute;
+   left:0;
+  right:0;
+  bottom:0;
+  top:0;
+ 
+  z-index:1;
+  -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity:0.5;
+    /*background-color:#fff;*/
+    overflow:hidden;
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+
+.ui-view.ng-leave > *,
+.ui-view-remove > *,
+.ui-view.ng-hide > * {
+  /*visibility:hidden;*/
+}
+.waiting-load .ui-view.ng-enter,
+.waiting-load .ui-view.ng-enter-active,
+.waiting-load .ui-view.ng-leave,
+.waiting-load .ui-view.ng-leave-active {
+  /*-webkit-animation-play-state: paused;
+    animation-play-state: paused;*/
+
+}
+.content-loaded .ui-view.ng-enter  {
+  /*-webkit-animation-play-state: running;
+    animation-play-state: running;*/
+
+}
+.xhr-active .ng-animate {
+  /*-webkit-animation-play-state: paused;
+    animation-play-state: paused;*/
+
+}
+
+.ui-view.fast.ng-enter,
+.ng-view.fast.ng-enter {
+    animation-delay:0.5s;
+    -webkit-animation-delay:0.5s;
+}
+.ui-view.normal.ng-enter,
+.ng-view.normal.ng-enter {
+    animation-delay:0.7s;
+    -webkit-animation-delay:0.7s;
+}
+.ui-view.slow.ng-enter,
+.ng-view.slow.ng-enter {
+    animation-delay:0.9s;
+    -webkit-animation-delay:0.9s;
+}
+.ui-view.slowest.ng-enter,
+.ng-view.slowest.ng-enter {
+    animation-delay:1.9s;
+    -webkit-animation-delay:1.9s;
+}

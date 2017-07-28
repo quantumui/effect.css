@@ -1,0 +1,55 @@
+@-webkit-keyframes newspaperIn {
+  0% {
+    -webkit-transform: scale(0) rotate(720deg);
+    transform: scale(0) rotate(720deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform:scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes newspaperIn {
+  0% {
+    -webkit-transform: scale(0) rotate(720deg);
+    -ms-transform: scale(0) rotate(720deg);
+    transform: scale(0) rotate(720deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes newspaperOut {
+  0% {;
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(0) rotate(-720deg);
+    transform: scale(0) rotate(-720deg);
+    opacity: 0;
+  }
+}
+@keyframes newspaperOut {
+  0% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0) rotate(-720deg);
+    -ms-transform: scale(0) rotate(-720deg);
+    transform: scale(0) rotate(-720deg);
+    opacity: 0;
+  }
+}

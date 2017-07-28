@@ -1,0 +1,121 @@
+@framework : 'all';
+
+.effect-class(@class, @inFrame, @outFrame) when (@framework = 'all'){
+  .@{class}.ng-enter,
+  .@{class}-add,
+  .@{class}.ng-hide-remove,
+  .@{class}.ng-move,
+  .@{class}-enter,
+  .@{class}-enter-active{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+  }
+
+   .@{class}.ng-leave,
+   .@{class}-remove,
+   .@{class}.ng-hide,
+   .@{class}-leave,
+   .@{class}-leave-active{
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+   }
+}
+.effect-class(@class, @inFrame, @outFrame) when (@framework = 'angular'){
+  .@{class}.ng-enter,
+  .@{class}-add,
+  .@{class}.ng-hide-remove,
+  .@{class}.ng-move{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+  }
+
+   .@{class}.ng-leave,
+   .@{class}-remove,
+   .@{class}.ng-hide {
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+   }
+}
+
+.effect-class(@class, @inFrame, @outFrame) when (@framework = 'react'){
+  .@{class}-enter,
+  .@{class}-enter-active{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+  }
+
+  .@{class}-leave,
+  .@{class}-leave-active {
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+   }
+}
+
+.effect-class-forward(@class, @inFrame, @outFrame) when (@framework = 'all'){
+  .@{class}.ng-enter,
+  .@{class}-add,
+  .@{class}.ng-hide-remove,
+  .@{class}.ng-move,
+  .@{class}-enter,
+  .@{class}-enter-active{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+   .@{class}.ng-leave,
+   .@{class}-remove,
+   .@{class}.ng-hide,
+   .@{class}-leave,
+   .@{class}-leave-active {
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+   }
+}
+.effect-class-forward(@class, @inFrame, @outFrame) when (@framework = 'angular'){
+  .@{class}.ng-enter,
+  .@{class}-add,
+  .@{class}.ng-hide-remove,
+  .@{class}.ng-move{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+   .@{class}.ng-leave,
+   .@{class}-remove,
+   .@{class}.ng-hide {
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+   }
+}
+
+.effect-class-forward(@class, @inFrame, @outFrame) when (@framework = 'react'){
+  .@{class}-enter,
+  .@{class}-enter-active{
+      -webkit-animation-name:@inFrame;
+            animation-name:@inFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+  .@{class}-leave,
+  .@{class}-leave-active {
+    -webkit-animation-name:@outFrame;
+            animation-name:@outFrame;
+    -webkit-animation-fill-mode: forwards;
+       -moz-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+   }
+}

@@ -1,0 +1,74 @@
+
+// ==Include effects or effect groups you want for angular, react or jquery
+
+// ==Import mixins
+@import 'mixins/effect-class.less';
+
+//## @framework variable determine to generate clases for which library.
+@framework : 'all';  /*Options are angular|react|all*/
+
+
+
+
+// ==Import some effect groups
+//## Yuo can remove which you want.
+
+@import 'effects/fall-effects.less';
+@import 'effects/flash-effects.less';
+@import 'effects/hinge-effects.less';
+@import 'effects/pulse-effects.less';
+@import 'effects/scale-effects.less';
+@import 'effects/shake-effects.less';
+@import 'effects/slit-effects.less';
+@import 'effects/speed-effects.less';
+@import 'effects/spin-effects.less';
+
+
+
+// ==Import keyframes you want and copy effects which you want 
+//##
+
+//## some bouce effects
+@import 'keyframes/bounce/bounce.less';
+@import 'keyframes/bounce/bounceInOut.less';
+//## be careful about importing keyframes which you will use
+@import 'effects/bounce/bounce.less';
+@import 'effects/bounce/bounce-in.less';
+
+//## some slide effects
+@import 'keyframes/slide/fromBottom.less';
+@import 'keyframes/slide/fromBottomLeft.less';
+@import 'keyframes/slide/fromBottomRight.less';
+//## be careful about importing keyframes which you will use
+@import 'effects/slide/from-bottom-left.less';
+@import 'effects/slide/from-bottom-right.less';
+@import 'effects/slide/from-bottom.less';
+
+
+// ==You can combine any keyframes with your own class name
+//##
+
+//## some rotate effects combination
+@import 'keyframes/rotate/flyLeft.less';
+@import 'keyframes/rotate/flyRight.less';
+@import 'keyframes/rotate/rotateLeft.less';
+@import 'keyframes/rotate/rotateRight.less';
+//## be careful about importing keyframes which you will use
+//## YOU CAN GENERATE YOUR OWN CLASS NAMES WITH COMBINING DIFFERENT KEYFRAMES
+//## combining fly and rotate keyframes 
+.effect-class(fly-left-rotate-right,flyLeftIn,rotateRightOut);
+.effect-class(rotate-left-fly-right,rotateLeftIn,flyRightOut);
+
+.effect-class(fly-right-rotate-left,flyRightIn,rotateLeftOut);
+.effect-class(rotate-right-fly-left,rotateRightIn,flyLeftOut);
+
+
+// ==Import effect-common This is important.
+@import 'effects-common.less';
+
+
+
+
+
+
+

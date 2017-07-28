@@ -1,0 +1,1146 @@
+[
+   {
+       "group": "bounce",
+       "file": "bounce",
+       "inEffect": "bounce",
+       "outEffect": "bounce",
+       "className": "bounce",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": "bounceInOut",
+       "inEffect": "bounceIn",
+       "outEffect": "bounceOut",
+       "className": "bounce-in",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": "bounceDown",
+       "inEffect": "bounceDownIn",
+       "outEffect": "bounceDownOut",
+       "className": "bounce-down",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": "bounceUp",
+       "inEffect": "bounceUpIn",
+       "outEffect": "bounceUpOut",
+       "className": "bounce-up",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": ["bounceDown", "bounceUp"],
+       "inEffect": "bounceDownIn",
+       "outEffect": "bounceUpOut",
+       "className": "bounce-down-up",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": ["bounceDown", "bounceUp"],
+       "inEffect": "bounceUpIn",
+       "outEffect": "bounceDownOut",
+       "className": "bounce-up-down",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": "bounceLeft",
+       "inEffect": "bounceLeftIn",
+       "outEffect": "bounceLeftOut",
+       "className": "bounce-left",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": "bounceRight",
+       "inEffect": "bounceRightIn",
+       "outEffect": "bounceRightOut",
+       "className": "bounce-right",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": ["bounceLeft", "bounceRight"],
+       "inEffect": "bounceLeftIn",
+       "outEffect": "bounceRightOut",
+       "className": "bounce-left-right",
+       "folder": "bounce"
+   },
+   {
+       "group": "bounce",
+       "file": ["bounceLeft", "bounceRight"],
+       "inEffect": "bounceRightIn",
+       "outEffect": "bounceLeftOut",
+       "className": "bounce-right-left",
+       "folder": "bounce"
+   },
+   {
+       "group": "fade",
+       "file": "fade",
+       "inEffect": "fadeIn",
+       "outEffect": "fadeOut",
+       "className": "fade-in",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": "fadeDown",
+       "inEffect": "fadeDownIn",
+       "outEffect": "fadeDownOut",
+       "className": "fade-down",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": "fadeUp",
+       "inEffect": "fadeUpIn",
+       "outEffect": "fadeUpOut",
+       "className": "fade-up",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": ["fadeDown", "fadeUp"],
+       "inEffect": "fadeDownIn",
+       "outEffect": "fadeUpOut",
+       "className": "fade-down-up",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": ["fadeDown", "fadeUp"],
+       "inEffect": "fadeUpIn",
+       "outEffect": "fadeDownOut",
+       "className": "fade-up-down",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": "fadeLeft",
+       "inEffect": "fadeLeftIn",
+       "outEffect": "fadeLeftOut",
+       "className": "fade-left",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": "fadeRight",
+       "inEffect": "fadeRightIn",
+       "outEffect": "fadeRightOut",
+       "className": "fade-right",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": ["fadeLeft", "fadeRight"],
+       "inEffect": "fadeLeftIn",
+       "outEffect": "fadeRightOut",
+       "className": "fade-left-right",
+       "folder": "fade"
+   },
+   {
+       "group": "fade",
+       "file": ["fadeLeft", "fadeRight"],
+       "inEffect": "fadeRightIn",
+       "outEffect": "fadeLeftOut",
+       "className": "fade-right-left",
+       "folder": "fade"
+   },
+   {
+       "group": "fall",
+       "file": "fall",
+       "inEffect": "fallIn",
+       "outEffect": "fallOut",
+       "className": "fall",
+       "folder": "fall"
+   },
+   {
+       "group": "fall",
+       "file": "fallLeft",
+       "inEffect": "fallLeftIn",
+       "outEffect": "fallLeftOut",
+       "className": "fall-left",
+       "folder": "fall"
+   },
+   {
+       "group": "fall",
+       "file": "fallRight",
+       "inEffect": "fallRightIn",
+       "outEffect": "fallRightOut",
+       "className": "fall-right",
+       "folder": "fall"
+   },
+   {
+       "group": "fall",
+       "file": ["fallLeft", "fallRight"],
+       "inEffect": "fallLeftIn",
+       "outEffect": "fallRightOut",
+       "className": "fall-left-right",
+       "folder": "fall"
+   },
+   {
+       "group": "fall",
+       "file": ["fallLeft", "fallRight"],
+       "inEffect": "fallRightIn",
+       "outEffect": "fallLeftOut",
+       "className": "fall-right-left",
+       "folder": "fall"
+   },
+   {
+       "group": "others",
+       "file": "flash",
+       "inEffect": "flashIn",
+       "outEffect": "flashOut",
+       "className": "flash",
+       "folder": "flash"
+   },
+   {
+       "group": "others",
+       "file": "flash",
+       "isNew": true,
+       "inEffect": "redAlert",
+       "outEffect": "redAlert",
+       "className": "red-alert",
+       "folder": "flash"
+   },
+   {
+       "group": "flip",
+       "file": "flip",
+       "inEffect": "flip",
+       "outEffect": "flip",
+       "className": "flip",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipX",
+       "inEffect": "flipXIn",
+       "outEffect": "flipXOut",
+       "className": "flip-x",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipY",
+       "inEffect": "flipYIn",
+       "outEffect": "flipYOut",
+       "className": "flip-y",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipZ",
+       "isNew": true,
+       "inEffect": "flipZIn",
+       "outEffect": "flipZOut",
+       "className": "flip-z",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSwingX",
+       "inEffect": "flipSwingXIn",
+       "outEffect": "flipSwingXOut",
+       "className": "flip-swing-x",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSwingY",
+       "inEffect": "flipSwingYIn",
+       "outEffect": "flipSwingYOut",
+       "className": "flip-swing-y",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSwingZ",
+       "isNew": true,
+       "inEffect": "flipSwingZIn",
+       "outEffect": "flipSwingZOut",
+       "className": "flip-swing-z",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipXInverse",
+       "isNew": true,
+       "inEffect": "flipXInverseIn",
+       "outEffect": "flipXInverseOut",
+       "className": "flip-x-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipYInverse",
+       "isNew": true,
+       "inEffect": "flipYInverseIn",
+       "outEffect": "flipYInverseOut",
+       "className": "flip-y-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipZInverse",
+       "isNew": true,
+       "inEffect": "flipZInverseIn",
+       "outEffect": "flipZInverseOut",
+       "className": "flip-z-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipX", "flipXThrough"],
+       "isNew": true,
+       "inEffect": "flipXIn",
+       "outEffect": "flipXTInverseOut",
+       "className": "flip-x-through",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipY", "flipYThrough"],
+       "isNew": true,
+       "inEffect": "flipYIn",
+       "outEffect": "flipYInverseOut",
+       "className": "flip-y-through",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipZ", "flipZThrough"],
+       "isNew": true,
+       "inEffect": "flipZIn",
+       "outEffect": "flipZInverseOut",
+       "className": "flip-z-through",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlide",
+       "isNew": true,
+       "inEffect": "flipSlideIn",
+       "outEffect": "flipSlideOut",
+       "className": "flip-slide",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideX",
+       "isNew": true,
+       "inEffect": "flipSlideXIn",
+       "outEffect": "flipSlideXOut",
+       "className": "flip-slide-x",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideY",
+       "isNew": true,
+       "inEffect": "flipSlideYIn",
+       "outEffect": "flipSlideYOut",
+       "className": "flip-slide-y",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideZ",
+       "isNew": true,
+       "inEffect": "flipSlideZIn",
+       "outEffect": "flipSlideZOut",
+       "className": "flip-slide-z",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideXInverse",
+       "isNew": true,
+       "inEffect": "flipSlideXInverseIn",
+       "outEffect": "flipSlideXInverseOut",
+       "className": "flip-slide-x-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideYInverse",
+       "isNew": true,
+       "inEffect": "flipSlideYInverseIn",
+       "outEffect": "flipSlideYInverseOut",
+       "className": "flip-slide-y-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": "flipSlideZInverse",
+       "isNew": true,
+       "inEffect": "flipSlideZInverseIn",
+       "outEffect": "flipSlideZInverseOut",
+       "className": "flip-slide-z-inverse",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipSlideX", "flipSlideXInverse"],
+       "isNew": true,
+       "inEffect": "flipSlideXIn",
+       "outEffect": "flipSlideXInverseOut",
+       "className": "flip-slide-x-through",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipSlideY", "flipSlideYInverse"],
+       "isNew": true,
+       "inEffect": "flipSlideYIn",
+       "outEffect": "flipSlideYInverseOut",
+       "className": "flip-slide-y-through",
+       "folder": "flip"
+   },
+   {
+       "group": "flip",
+       "file": ["flipSlideZ", "flipSlideZInverse"],
+       "isNew": true,
+       "inEffect": "flipSlideZIn",
+       "outEffect": "flipSlideZInverseOut",
+       "className": "flip-slide-z-through",
+       "folder": "flip"
+   },
+   {
+       "group": "hinge",
+       "file": "hinge",
+       "inEffect": "hingeIn",
+       "outEffect": "hingeOut",
+       "className": "hinge",
+       "folder": "hinge"
+   },
+   {
+       "group": "hinge",
+       "file": "hingeRight",
+       "inEffect": "hingeRightIn",
+       "outEffect": "hingeRightOut",
+       "className": "hinge-right",
+       "folder": "hinge"
+   },
+   {
+       "group": "hinge",
+       "file": ["hinge", "hingeRight"],
+       "inEffect": "hingeIn",
+       "outEffect": "hingeRightOut",
+       "className": "hinge-left-right",
+       "folder": "hinge"
+   },
+   {
+       "group": "hinge",
+       "file": ["hinge", "hingeRight"],
+       "inEffect": "hingeRightIn",
+       "outEffect": "hingeOut",
+       "className": "hinge-right-left",
+       "folder": "hinge"
+   },
+   {
+       "group": "others",
+       "file": "pulse",
+       "inEffect": "pulse",
+       "outEffect": "pulse",
+       "className": "pulse",
+       "folder": "pulse"
+   },
+   {
+       "group": "others",
+       "file": "pulseLarge",
+       "inEffect": "pulseLarge",
+       "outEffect": "pulseLarge",
+       "className": "pulse-large",
+       "folder": "pulse"
+   },
+   {
+       "group": "others",
+       "file": "roll",
+       "inEffect": "rollIn",
+       "outEffect": "rollOut",
+       "className": "roll",
+       "folder": "roll"
+   },
+   {
+       "group": "others",
+       "file": "rollRight",
+       "inEffect": "rollRightIn",
+       "outEffect": "rollRightOut",
+       "className": "roll-right",
+       "folder": "roll"
+   },
+   {
+       "group": "rotate",
+       "file": "rotate",
+       "inEffect": "rotateIn",
+       "outEffect": "rotateOut",
+       "className": "rotate",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateInverse",
+       "isNew": true,
+       "inEffect": "rotateInverseIn",
+       "outEffect": "rotateInverseOut",
+       "className": "rotate-inverse",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "newspaper",
+       "inEffect": "newspaperIn",
+       "outEffect": "newspaperOut",
+       "className": "newspaper",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "newspaperInverse",
+       "isNew": true,
+       "inEffect": "newspaperInverseIn",
+       "outEffect": "newspaperInverseOut",
+       "className": "newspaper-inverse",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateTop",
+       "inEffect": "rotateTopIn",
+       "outEffect": "rotateTopOut",
+       "className": "rotate-top",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateBottom",
+       "inEffect": "rotateBottomIn",
+       "outEffect": "rotateBottomOut",
+       "className": "rotate-bottom",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["rotateTop", "rotateBottom"],
+       "inEffect": "rotateTopIn",
+       "outEffect": "rotateBottomOut",
+       "className": "rotate-top-bottom",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["rotateTop", "rotateBottom"],
+       "inEffect": "rotateBottomIn",
+       "outEffect": "rotateTopOut",
+       "className": "rotate-bottom-top",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateLeft",
+       "inEffect": "rotateLeftIn",
+       "outEffect": "rotateLeftOut",
+       "className": "rotate-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateRight",
+       "inEffect": "rotateRightIn",
+       "outEffect": "rotateRightOut",
+       "className": "rotate-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["rotateLeft", "rotateRight"],
+       "inEffect": "rotateLeftIn",
+       "outEffect": "rotateRightOut",
+       "className": "rotate-left-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["rotateLeft", "rotateRight"],
+       "inEffect": "rotateRightIn",
+       "outEffect": "rotateLeftOut",
+       "className": "rotate-right-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateDownLeft",
+       "inEffect": "rotateDownLeftIn",
+       "outEffect": "rotateDownLeftOut",
+       "className": "rotate-down-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateDownRight",
+       "inEffect": "rotateDownRightIn",
+       "outEffect": "rotateDownRightOut",
+       "className": "rotate-down-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateUpLeft",
+       "inEffect": "rotateUpLeftIn",
+       "outEffect": "rotateUpLeftOut",
+       "className": "rotate-up-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "rotateUpRight",
+       "inEffect": "rotateUpRightIn",
+       "outEffect": "rotateUpRightOut",
+       "className": "rotate-up-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "flyLeft",
+       "isNew": true,
+       "inEffect": "flyLeftIn",
+       "outEffect": "flyLeftOut",
+       "className": "fly-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": "flyRight",
+       "isNew": true,
+       "inEffect": "flyRightIn",
+       "outEffect": "flyRightOut",
+       "className": "fly-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["flyLeft", "flyRight"],
+       "isNew": true,
+       "inEffect": "flyLeftIn",
+       "outEffect": "flyRightOut",
+       "className": "fly-left-right",
+       "folder": "rotate"
+   },
+   {
+       "group": "rotate",
+       "file": ["flyLeft", "flyRight"],
+       "isNew": true,
+       "inEffect": "flyRightIn",
+       "outEffect": "flyLeftOut",
+       "className": "fly-right-left",
+       "folder": "rotate"
+   },
+   {
+       "group": "others",
+       "file": "scale",
+       "inEffect": "scaleIn",
+       "outEffect": "scaleOut",
+       "className": "scale",
+       "folder": "scale"
+   },
+   {
+       "group": "others",
+       "file": "scaleLarge",
+       "inEffect": "scaleLargeIn",
+       "outEffect": "scaleLargeOut",
+       "className": "scale-large",
+       "folder": "scale"
+   },
+   {
+       "group": "others",
+       "file": "shake",
+       "inEffect": "shake",
+       "outEffect": "shake",
+       "className": "shake",
+       "folder": "shake"
+   },
+   {
+       "group": "sing",
+       "file": "sing",
+       "inEffect": "singIn",
+       "outEffect": "singOut",
+       "className": "sing",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singBottom",
+       "inEffect": "singBottomIn",
+       "outEffect": "singBottomOut",
+       "className": "sing-bottom",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["sing", "singBottom"],
+       "isNew": true,
+       "inEffect": "singIn",
+       "outEffect": "singBottomOut",
+       "className": "sing-top-bottom",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["sing", "singBottom"],
+       "inEffect": "singBottomIn",
+       "isNew": true,
+       "outEffect": "singOut",
+       "className": "sing-bottom-top",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singLeft",
+       "inEffect": "singLeftIn",
+       "outEffect": "singLeftOut",
+       "className": "sing-left",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singRight",
+       "inEffect": "singRightIn",
+       "outEffect": "singRightOut",
+       "className": "sing-right",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["singLeft", "singRight"],
+       "inEffect": "singLeftIn",
+       "outEffect": "singRightOut",
+       "className": "sing-left-right",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["singLeft", "singRight"],
+       "inEffect": "singRightIn",
+       "outEffect": "singLeftOut",
+       "className": "sing-right-left",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singSwing",
+       "inEffect": "singSwingIn",
+       "outEffect": "singSwingOut",
+       "className": "sing-swing",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singSwingBottom",
+       "inEffect": "singSwingBottomIn",
+       "outEffect": "singSwingBottomOut",
+       "className": "sing-swing-bottom",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singSwingLeft",
+       "inEffect": "singSwingLeftIn",
+       "outEffect": "singSwingLeftOut",
+       "className": "sing-swing-left",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": "singSwingRight",
+       "inEffect": "singSwingRightIn",
+       "outEffect": "singSwingRightOut",
+       "className": "sing-swing-right",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["singSwingLeft", "singSwingRight"],
+       "inEffect": "singSwingLeftIn",
+       "outEffect": "singSwingRightOut",
+       "className": "sing-swing-left-right",
+       "folder": "sing"
+   },
+   {
+       "group": "sing",
+       "file": ["singSwingLeft", "singSwingRight"],
+       "inEffect": "singSwingRightIn",
+       "outEffect": "singSwingLeftOut",
+       "className": "sing-swing-right-left",
+       "folder": "sing"
+   },
+   {
+       "group": "slide",
+       "file": "slide",
+       "inEffect": "slideIn",
+       "outEffect": "slideOut",
+       "className": "slide",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideBottom",
+       "inEffect": "slideBottomIn",
+       "outEffect": "slideBottomOut",
+       "className": "slide-bottom",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["slide", "slideBottom"],
+       "inEffect": "slideIn",
+       "outEffect": "slideBottomOut",
+       "className": "slide-top-bottom",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["slide", "slideBottom"],
+       "inEffect": "slideBottomIn",
+       "outEffect": "slideOut",
+       "className": "slide-bottom-top",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideLeft",
+       "inEffect": "slideLeftIn",
+       "outEffect": "slideLeftOut",
+       "className": "slide-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideRight",
+       "inEffect": "slideRightIn",
+       "outEffect": "slideRightOut",
+       "className": "slide-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["slideLeft", "slideRight"],
+       "inEffect": "slideLeftIn",
+       "outEffect": "slideRightOut",
+       "className": "slide-left-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["slideLeft", "slideRight"],
+       "inEffect": "slideRightIn",
+       "outEffect": "slideLeftOut",
+       "className": "slide-right-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideSticky",
+       "inEffect": "slideStickyIn",
+       "outEffect": "slideStickyOut",
+       "className": "slide-sticky",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideStickyBottom",
+       "inEffect": "slideStickyBottomIn",
+       "outEffect": "slideStickyBottomOut",
+       "className": "slide-sticky-bottom",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideStickyLeft",
+       "inEffect": "slideStickyLeftIn",
+       "outEffect": "slideStickyLeftOut",
+       "className": "slide-sticky-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "slideStickyRight",
+       "inEffect": "slideStickyRightIn",
+       "outEffect": "slideStickyRightOut",
+       "className": "slide-sticky-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromTop",
+       "inEffect": "fromTopIn",
+       "outEffect": "fromTopOut",
+       "className": "from-top",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromBottom",
+       "inEffect": "fromBottomIn",
+       "outEffect": "fromBottomOut",
+       "className": "from-bottom",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromLeft",
+       "inEffect": "fromLeftIn",
+       "outEffect": "fromLeftOut",
+       "className": "from-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromRight",
+       "inEffect": "fromRightIn",
+       "outEffect": "fromRightOut",
+       "className": "from-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromTopLeft",
+       "inEffect": "fromTopLeftIn",
+       "outEffect": "fromTopLeftOut",
+       "className": "from-top-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromBottomLeft",
+       "inEffect": "fromBottomLeftIn",
+       "outEffect": "fromBottomLeftOut",
+       "className": "from-bottom-left",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromTopRight",
+       "inEffect": "fromTopRightIn",
+       "outEffect": "fromTopRightOut",
+       "className": "from-top-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": "fromBottomRight",
+       "inEffect": "fromBottomRightIn",
+       "outEffect": "fromBottomRightOut",
+       "className": "from-bottom-right",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["fromTopLeft", "fromBottomRigh"],
+       "isNew": true,
+       "inEffect": "fromTopLeftIn",
+       "outEffect": "fromBottomRightOut",
+       "className": "slide-west-east",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["fromTopLeft", "fromBottomRigh"],
+       "isNew": true,
+       "inEffect": "fromBottomRightIn",
+       "outEffect": "fromTopLeftOut",
+       "className": "slide-east-west",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["fromTopRight", "fromBottomLeft"],
+       "isNew": true,
+       "inEffect": "fromTopRightIn",
+       "outEffect": "fromBottomLeftOut",
+       "className": "slide-north-south",
+       "folder": "slide"
+   },
+   {
+       "group": "slide",
+       "file": ["fromTopRight", "fromBottomLeft"],
+       "isNew": true,
+       "inEffect": "fromBottomLeftIn",
+       "outEffect": "fromTopRightOut",
+       "className": "slide-south-north",
+       "folder": "slide"
+   },
+   {
+       "group": "others",
+       "file": "slit",
+       "inEffect": "slitIn",
+       "outEffect": "slitOut",
+       "className": "slit",
+       "folder": "slit"
+   },
+   {
+       "group": "others",
+       "file": "slitX",
+       "inEffect": "slitXIn",
+       "outEffect": "slitXOut",
+       "className": "slit-x",
+       "folder": "slit"
+   },
+   {
+       "group": "speed",
+       "file": "speed",
+       "inEffect": "speedIn",
+       "outEffect": "speedOut",
+       "className": "speed-right",
+       "folder": "speed"
+   },
+   {
+       "group": "speed",
+       "file": "speedLeft",
+       "inEffect": "speedLeftIn",
+       "outEffect": "speedLeftOut",
+       "className": "speed-left",
+       "folder": "speed"
+   },
+   {
+       "group": "speed",
+       "file": ["speed", "speedLeft"],
+       "inEffect": "speedIn",
+       "outEffect": "speedLeftOut",
+       "className": "speed-right-left",
+       "folder": "speed"
+   },
+   {
+       "group": "speed",
+       "file": ["speed", "speedLeft"],
+       "inEffect": "speedLeftIn",
+       "outEffect": "speedOut",
+       "className": "speed-left-right",
+       "folder": "speed"
+   },
+   {
+       "group": "others",
+       "file": "spin",
+       "inEffect": "spin",
+       "outEffect": "spinOut",
+       "className": "spin",
+       "folder": "spin"
+   },
+   {
+       "group": "others",
+       "file": "stomp",
+       "isNew": true,
+       "inEffect": "stompIn",
+       "outEffect": "stompOut",
+       "className": "stomp",
+       "folder": "stomp"
+   },
+   {
+       "group": "others",
+       "file": "swing",
+       "inEffect": "swing",
+       "outEffect": "swing",
+       "className": "swing",
+       "folder": "swing"
+   },
+   {
+       "group": "others",
+       "file": "tada",
+       "inEffect": "tada",
+       "outEffect": "tada",
+       "className": "tada",
+       "folder": "tada"
+   },
+   {
+       "group": "toss",
+       "file": "tossTopLeft",
+       "isNew": true,
+       "inEffect": "tossTopLeftIn",
+       "outEffect": "tossTopLeftOut",
+       "className": "toss-top-left",
+       "folder": "toss"
+   },
+   {
+       "group": "toss",
+       "file": "tossTopRight",
+       "isNew": true,
+       "inEffect": "tossTopRightIn",
+       "outEffect": "tossTopRightOut",
+       "className": "toss-top-right",
+       "folder": "toss"
+   },
+   {
+       "group": "toss",
+       "file": "tossBottomLeft",
+       "isNew": true,
+       "inEffect": "tossBottomLeftIn",
+       "outEffect": "tossBottomLeftOut",
+       "className": "toss-bottom-left",
+       "folder": "toss"
+   },
+   {
+       "group": "toss",
+       "file": "tossBottomRight",
+       "inEffect": "tossBottomRightIn",
+       "isNew": true,
+       "outEffect": "tossBottomRightOut",
+       "className": "toss-bottom-right",
+       "folder": "toss"
+   },
+   {
+       "group": "wobble",
+       "file": "wobble",
+       "inEffect": "wobble",
+       "outEffect": "wobble",
+       "className": "wobble",
+       "folder": "wobble"
+   },
+   {
+       "group": "wobble",
+       "file": "wobbleSkew",
+       "isNew": true,
+       "inEffect": "wobbleSkew",
+       "outEffect": "wobbleSkew",
+       "className": "wobble-bottom",
+       "folder": "wobble"
+   },
+   {
+       "group": "wobble",
+       "file": "wobbleSkew",
+       "isNew": true,
+       "inEffect": "wobbleSkew",
+       "outEffect": "wobbleSkew",
+       "className": "wobble-top",
+       "folder": "wobble"
+   },
+   {
+       "group": "wobble",
+       "file": "wobbleNorth",
+       "isNew": true,
+       "inEffect": "wobbleNorth",
+       "outEffect": "wobbleNorth",
+       "className": "wobble-north",
+       "folder": "wobble"
+   },
+   {
+       "group": "wobble",
+       "file": "wobbleWest",
+       "isNew": true,
+       "inEffect": "wobbleWest",
+       "outEffect": "wobbleWest",
+       "className": "wobble-west",
+       "folder": "wobble"
+   },
+   {
+       "group": "wobble",
+       "file": "wobbleSkew",
+       "inEffect": "wobbleSkewIn",
+       "outEffect": "wobbleSkewOut",
+       "className": "wobble-skew",
+       "folder": "wobble"
+   }
+]
