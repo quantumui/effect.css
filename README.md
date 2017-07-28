@@ -1,11 +1,15 @@
 # effect.css
 PURE CSS animation effects written in LESS for Angular, React, Jquery, Bootstrap and QuantumUI
 
-#####Over 200  keyframes animations effects
-#####280 awesome CSS3 animation classes
-#####5 animation speed options
-#####an extenstion package for jquery compatibility 
-#####an extension package for bootstrap compatibility
+###Over 200  keyframes animations effects
+
+###280 awesome CSS3 animation classes
+
+###5 animation speed options
+
+###An extenstion package for jquery compatibility 
+
+###An extension package for bootstrap compatibility
 
 [**Online Demos and Documentation**](http://effectcss.quantumui.org/)
 
